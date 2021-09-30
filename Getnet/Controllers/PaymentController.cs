@@ -29,8 +29,8 @@ namespace Getnet.Controllers
                 var service = new Services.GetNetService("https://api-sandbox.getnet.com.br");
                 var credential = new Models.Credentials
                 {
-                    ClientId = "d251b486-9203-45ef-87e8-38607ad99e0c",
-                    ClientSecret = "aa460223-9e37-4a92-b550-c74a9b1e6d63"
+                    ClientId = "",
+                    ClientSecret = ""
                 };
 
                 await service.Authentication(credential);
